@@ -55,7 +55,7 @@ print(type(a))
 
 c = "5"
 d = "15"
-# print(c.__add__(d))
 print(c + d)
+# print(c.__add__(d))
 
 # Next Class: Methods starting with 'd'
