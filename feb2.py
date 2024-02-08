@@ -58,10 +58,22 @@ dictionaries: unordered & mutable collection of key:value pairs     {}
 l1 = [12, 15, 11, 26, 33, 45, 59]
 # ind: 0,  1,  2,  3,  4,  5,  6
 # -ve:-7, -6, -5, -4, -3, -2, -1
-print(len(l1))
+# print(len(l1))
 l2 = [12, 15.43, 11.22, -26.4, 0, 33, 45, 59]
-print(l1)
-print(l2)
-l3 = [12, 15.43, "San Diego", 11.22, "Ahmedabad", -26.4, 0, "USA", 33, "India", 45, 59]
-print(l3)
-print(len(l3))
+# print(l1)
+# print(l2)
+l3 = [12, 15.43, ["Mumbai", 10, -0.75], "San Diego", 11.22, "Ahmedabad", -26.4, 0, "USA", 33, "India", 45, 59]
+# print(l3)
+# print(len(l3))
+# print(l3[2])
+# print(len(l3[2]))
+
+# print(l3[2][0])
+# print(l3[2][0][3])
+
+# myString = "This is February going on. I like this month."
+
+# print(myString.split())
+# print(myString.split()[2])
+
+# print(l3[2][0].upper().center(50, "-").lstrip("-"))
