@@ -19,5 +19,3 @@ if a > 0:
     c -= 1
     print("New value of c =", c)
 print("Thanks for using our program!")
-
-# Next Lecture: What is True & what is False, if-else etc
