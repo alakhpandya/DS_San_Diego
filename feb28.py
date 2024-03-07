@@ -96,7 +96,7 @@ input string: Python Programming
 output:
 vowels: 4
 whitel spaces: 1
-consonents: 13
+consonents: 13 
 3. Write a Python code that prints the index numbers of all the occurrences of "o" in a given string of length 5.
 4. Write a program to make a new string with the word "the" deleted in the given string.
 eg:
