@@ -18,7 +18,6 @@ print(consonents)
 """
 """
 fruits = ["apple", "banana", "kiwi", "grapes", "mangoes", "berries"]
-
 i = 0
 while i < len(fruits):
     print(fruits[i])
