@@ -71,4 +71,4 @@ ret = d.setdefault(sub, marks)
 print(d)
 print("Returned value:", ret)
 
-# Update your program such that if that subject exists in the dictionary then your program shoul ask user: "<subject> already present with <marks>, do you want to update it with new marks?"
+# Update your program such that if that subject exists in the dictionary then your program should ask user: "<subject> already present with <marks>, do you want to update it with new marks?"
