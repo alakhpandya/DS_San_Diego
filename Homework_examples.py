@@ -45,3 +45,10 @@ Original dictionary of lists:
 Split said dictionary of lists into list of dictionaries:
 [{'Science': 88, 'Language': 77}, {'Science': 89, 'Language': 78}, {'Science': 62, 'Language': 84}, {'Science': 95, 'Language': 80}]
 """
+
+# Functions Examples:
+
+"""
+1. Ask two integers from user, add their factroials. Now ask two more integers from user and add their factorials too. calculate average of the factorials you computed. Now finally ask one last integer from user and add its factorial to the average.
+
+"""
