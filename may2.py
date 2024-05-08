@@ -75,11 +75,3 @@ print("average of factorials =", avg_of_factorials(a, b, c, d, e))
 f = int(input("f: "))
 print(fact(f))
 """
-
-# Scope of a varibale-2: Global variables, local variables & global keyword
-
-# Deleting and copying a function
-
-# Powerful Lambda Functions / In-line functions / Anonymous functions
-
-# Some important builtin functions: sum(), zip(), map(), round(), filter(),
