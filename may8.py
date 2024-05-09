@@ -53,7 +53,3 @@ func2 = func1
 del func1
 del func2
 func2(3)
-
-# Powerful Lambda Functions / In-line functions / Anonymous functions
-
-# Some important builtin functions: sum(), zip(), map(), round(), filter(),
