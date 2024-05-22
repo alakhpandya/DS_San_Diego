@@ -6,6 +6,8 @@
 # avg = lambda a, b, c : (a + b + c)/3
 # print(avg(5,6,10))
 
+# lambda a, b, c : (a + b + c)/3
+
 # avg = lambda a, b, c : print(f"Average of {a}, {b} & {c} is: {(a + b + c)/3}")
 # avg(5,7,12)
 
@@ -49,20 +51,36 @@ print(zipped3)
 """
 
 
-# map(), filter(), reduce(), all(), any()
+# map()
+"""
 def square(x):
     return x*x
 
 myList = [3, 5, 6, 9, 10, 8, 4, 2]
-myTuple = (3, 5, 6, 9, 10, 8, 4, 2)
+# myTuple = (3, 5, 6, 9, 10, 8, 4, 2)
 
 yourList = map(square, myList)
-# print(yourList)
+print(yourList)
+# for x in yourList:
+#     print(x)
 
-from sys import getsizeof
-print(getsizeof(myList))
-print(getsizeof(yourList))
-print(getsizeof(myTuple))
+# from sys import getsizeof
+# print(getsizeof(myList))
+# print(getsizeof(yourList))
+# print(getsizeof(myTuple))
 
 # for x in yourList:
 #     print(x)
+"""
+"""
+myList = [3, 5, 6, 9, 10, 8, 4, 2]
+x = 3
+"""
+# yourList = list(map(x*x, myList))
+# square = lambda x : x*x
+# yourList = list(map(square, myList))
+
+"""
+yourList = list(map(lambda x: x*x, myList))
+print(yourList)
+"""
