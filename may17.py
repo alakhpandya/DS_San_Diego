@@ -26,8 +26,21 @@ from myPackage import myModule as mm
 myModule.myFunc()
 """
 
-from myPackage.myModule import myFunc as f1
-f1()
+# from myPackage.myModule import myFunc as f1
+# f1()
 
 # Create a subPackage inside myPackage and also create a subModule in subPackage. Write a function 'subFunc' in the subModule and try to call it in may17.py
 
+from myPackage.subPackage import subModule
+subModule.subFunc()
+
+from myPackage.subPackage import subModule as sm
+sm.subFunc()
+
+from myPackage.subPackage.subModule import subFunc
+subFunc()
+
+from myPackage.subPackage.subModule import subFunc as sf
+sf()
+
+import pandas as pd
