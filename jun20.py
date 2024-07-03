@@ -97,9 +97,9 @@ print("c2 =", c2)
 print("c3 =", c3)
 print("c4 =", c4)
 """
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+# import numpy as np
+# import matplotlib.pyplot as plt
+# import seaborn as sns
 
 # x = np.random.uniform(low=1, high=101, size=10000)
 # sns.histplot(data=x)
@@ -117,11 +117,35 @@ import seaborn as sns
 # sns.histplot(data=x)
 # plt.show()
 
-options = ["Rock", "Paper", "Scissors"]
-for i in range(20):
-    x = random.choice(options)
-    print(x)
+# options = ["Rock", "Paper", "Scissors"]
+# for i in range(20):
+#     x = random.choice(options)
+#     print(x)
 
 # HW-1: Simulate a game where we ask user to choose from "Rock", "Paper" & "Scissors" then computer will choose one of them, if computer wins, 1 will be added to the score of computer & if user wins, 1 will be added to his/her score. If it is a tie then nothing to be added to anyone's score. The game will conduct such 20 rounds and at the end it will print both the scores, and also should declare the final winner.
+"""
+Rock Vs. Paper => Paper wins
+Paper Vs. Scissors => Scissors win
+Scissors Vs. Rock => Rock wins
+"""
 
 # HW-2: Do the above code without using random.choice()
+"""
+comp=0
+user=0
+options=["Rock","Paper","Scissors"]
+for i in range(2):
+    print("Round: ",i+1)
+    uchoice=input().capitalize()
+    cchoice=random.choice(options)
+    print(cchoice)
+    if (uchoice=="Rock" and cchoice=="Paper") or (uchoice=="Paper" and cchoice=="Scissors") or (uchoice=="Scissors" and cchoice=="Rock"):
+        comp+=1
+    elif (uchoice=="Rock" and cchoice=="Scissors") or (uchoice=="Scissors" and cchoice=="Paper") or (uchoice=="Paper" and cchoice=="Rock"):
+        user+=1
+if comp>user:
+    print("Computer Wins")
+else: 
+    print("User Wins!")
+print("Comp Score: ",comp, "User score: ", user)
+"""
